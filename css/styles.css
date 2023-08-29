@@ -1,0 +1,133 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos slider */
+
+#slider img{
+    width: 120% !important;
+}
+
+.bx-wrapper img{
+    max-width: 120% !important;
+    max-height: 350px;
+}
+
+.bx-wrapper{
+    max-width: 1500px !important;
+    max-height: 500px;
+}
+
+.bxslider div{
+    width: 1350px !important;
+}
+
+/* Estilos para el encabezado */
+.header {
+    background-color: #1b0088;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Estilos para la sección de promoción */
+.promo {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* Estilos para las características */
+.feature {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la sección de destinos */
+.destinations {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.destination {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.destination img {
+    width: 25%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la sección de hoteles */
+.hotels {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hotel {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.hotel img {
+    width: 25%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la sección de información de contacto */
+.contact-info {
+    padding: 40px 0;
+}
+
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+
+/* Estilos para los enlaces */
+.contact-info a {
+    color: #1b0088;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+
+/* Estilos para el pie de página */
+.footer {
+    background-color: #1b0088;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
